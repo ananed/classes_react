@@ -8,6 +8,7 @@ class Clock extends React.Component {
     //si vas a usar this.state tienes que darle un estado inicial
     this.state = {date: new Date()}
   }
+  //si llamamos primero a este, no va a tener acesso a this.state
   render(){
       //esto es lo que te devuelve esta funcion
     return <div></div>;
